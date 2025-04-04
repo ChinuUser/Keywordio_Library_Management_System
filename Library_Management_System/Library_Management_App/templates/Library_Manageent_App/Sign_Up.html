@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<h1><center>
+    Library Management System<br>
+     Sign Up for Admin 
+     <br><br>
+     <form method="POST" action="#" name="sign">
+      {% csrf_token %}
+    {{ form.as_p }}
+      
+        UserName: <input type="text" width="48" height="48" placeholder="Enter a unique username" name="t_user_nm"><br><br>
+        Password: <input type="password" placeholder="Enter Password" name="t_pas"><br><br>
+        Renter Password :<input type="password" placeholder="Renter-Password" name="t_repas"><br><br>
+        <input type="submit" width="48" height="48">
+        <input type="reset" width="60" height="60">
+     </form> 
+
+</center> 
+ </h1>

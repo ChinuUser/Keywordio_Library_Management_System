@@ -1,0 +1,25 @@
+// Hello this is submission of my project 
+- Chinmayee Daithankar
+// How to Run
+1-Download the file
+2-Run Commands in Terminal
+- pip install django
+- pip install pipenv
+- py -m venv myvenv (name for virtual enviroment)
+- myvenv\scripts\activate
+- py manage.py makemigrations
+- py manage.py migrate
+- py manage.py runserver ( to start server)
+- Navigate on http://127.0.0.1:8000/ (Landing Page )
+- http://127.0.0.1:8000/login (login Page)
+http://127.0.0.1:8000/sign (sign Page)
+
+
+
+Note :-
+I request to you sir/ma'am i have also done a another project "Task Management System" using django where i have done
+ database connection and mailing function. To please have a view on that project as i am a capable intern
+Due to time constrain i have just laied out html pages.
+ 
+Thank you ,
+Chinmayee Uday Daithankar
